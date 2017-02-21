@@ -8,6 +8,6 @@ stores data, code and documents for the CA drought and public health MRPI propos
 
 folder [raw_data](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data) corresponds to data as directly downloaded from sources (often csv files).
 
-folder [R](https://github.com/kcucchi/CA_drought/tree/master/data/R) contains R scripts and R objects reading the csv files.
+folder [R](https://github.com/kcucchi/CA_drought/tree/master/data/R) contains R scripts and R objects reading files in raw_data.
 
 ## 
