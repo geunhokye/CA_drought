@@ -3,23 +3,34 @@ dataPath_ch = 'data/raw_data/health/wnv_CHHS/West_Nile_Virus_Cases__2006-present
 wnv_ch <- read.csv(file = dataPath_ch,header = T,sep = ',')
 
 #Get yearly and total summaries for cases per county ##############
-cnt = sort(unique(wnv_ch$County))      #All counties
-yrs = c(unique(wnv_ch$Year), 'total')  #All yearsand totals
-
+  cnt = unique(wnv_ch$County)
+  yrs = unique(wnv_ch$Year)
 #Generate data frame to fill
-wnv.sum = data.frame('County' = rep(cnt, length(yrs)),
-                     'Year' = rep(yrs, each = length(cnt)),
-                     'Cases' = 0)
+wnv.years = data.frame('County' = cnt,
+                     'cases_2006' = 0,
+                     'cases_2007' = 0,
+                     'cases_2008' = 0,
+                     'cases_2009' = 0,
+                     'cases_2010' = 0,
+                     'cases_2011' = 0,
+                     'cases_2012' = 0,
+                     'cases_2013' = 0,
+                     'cases_2014' = 0,
+                     'cases_2015' = 0,
+                     'cases_2016' = 0,
+                     'cases_total' = 0)
 #Fill dataframe
-for(i in 1:nrow(wnv.sum)){
-  wnv.sum[i,3] = sum(wnv_ch$Positive.Cases[wnv_ch$Year == wnv.sum[i,2] 
-                                           & wnv_ch$County == wnv.sum[i,1]])
+for(i in 1:nrow(wnv.years)){
+  for(j in c(2006:2016)){
+    wnv.years[i,(j-2004)] = sum(wnv_ch$Positive.Cases[wnv_ch$Year == j 
+                                           & wnv_ch$County == wnv.years[i,1]])
+  }
+  
+}
+for(i in 1:nrow(wnv.years)){
+  wnv.years[i,13] = sum(wnv.years[i,2:12])
 }
 
-for(i in (nrow(wnv.sum)-length(cnt)+1):nrow(wnv.sum)){
-  wnv.sum[i,3] = sum(wnv.sum$Cases[wnv.sum$County == wnv.sum[i,1]])
-}
-
-#wnv.sum file and individual files for each yearly summary saved as csv to github repository found at 
+#wnv.years file saved to github:
 # https://github.com/kcucchi/CA_drought/tree/master/data/raw_data/health/wnv_CHHS
-# write.csv(wnv.sum, 'data/raw_data/health/wnv_CHHS/wnv_sums_ch.csv', row.names = FALSE)
+# write.csv(wnv.years, 'data/raw_data/health/wnv_CHHS/wnv_sums_ch.csv', row.names = FALSE)
