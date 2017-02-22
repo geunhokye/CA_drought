@@ -7,3 +7,7 @@ on Feb 17th 2017
 > West_Nile_Virus_Cases__2006-2014-DD.csv
 
 metadata for West_Nile_Virus_Cases__2006-present.csv downloaded from same webpage on same day
+
+>wnv_sums_ch.csv
+
+collated weekly case data into yearly totals for each county

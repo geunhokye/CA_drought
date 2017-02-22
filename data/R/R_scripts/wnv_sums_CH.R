@@ -20,6 +20,6 @@ for(i in (nrow(wnv.sum)-length(cnt)+1):nrow(wnv.sum)){
   wnv.sum[i,3] = sum(wnv.sum$Cases[wnv.sum$County == wnv.sum[i,1]])
 }
 
-#wnv.sum file saved as csv to github repository found at 
+#wnv.sum file and individual files for each yearly summary saved as csv to github repository found at 
 # https://github.com/kcucchi/CA_drought/tree/master/data/raw_data/health/wnv_CHHS
 # write.csv(wnv.sum, 'data/raw_data/health/wnv_CHHS/wnv_sums_ch.csv', row.names = FALSE)
