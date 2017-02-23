@@ -1,0 +1,1 @@
+Shapefile of CA counties joined with 2010 census data for demographic info and with county level yearly WNV cases from CHHS
