@@ -4,6 +4,8 @@ accessible at : https://www.cdph.ca.gov/PROGRAMS/VBDS/Pages/VBDSAnnualReports.as
 - Table 4.2 in 2014 report
 - Table 8 in 2013 report
 - Table 7 in 2012 report
+- Table 7 in 2011 report
+- Table 7 in 2010 report
 
 CAREFUL! The order of the column is not the same in all files.
 
