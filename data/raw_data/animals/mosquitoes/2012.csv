@@ -1,0 +1,60 @@
+County;No. mosquitoes tested;No. mosquito pools tested;WNV positive pools;WNV Minimum Infection Rate, by PCR only
+Alameda;1,860;84;0;0.00
+Alpine;0;NA;NA;NA
+Amador;0;NA;NA;NA
+Butte;8,643;176;27;3.12
+Calaveras;0;NA;NA;NA
+Colusa;0;NA;NA;NA
+Contra Costa;8,801;286;4;0.45
+Del Norte;0;NA;NA;NA
+El Dorado;0;NA;NA;NA
+Fresno;40,341;1,085;143;3.54
+Glenn;1,635;33;4;2.45
+Humboldt;0;NA;NA;NA
+Imperial;3,026;63;4;1.32
+Inyo;398;11;0;0.00
+Kern;117,304;3,081;571;4.87
+Kings;27,754;754;102;3.68
+Lake;17,080;462;23;1.35
+Lassen;0;NA;NA;NA
+Los Angeles;116,787;3,286;339;2.90
+Madera;4,594;155;14;3.05
+Marin;3,082;412;0;0.00
+Mariposa;0;NA;NA;NA
+Mendocino;0;NA;NA;NA
+Merced;4,858;234;4;0.82
+Modoc;0;NA;NA;NA
+Mono;0;NA;NA;NA
+Monterey;690;15;0;0.00
+Napa;3,257;139;1;0.31
+Nevada;0;NA;NA;NA
+Orange;35,375;1,530;69;1.95
+Placer;36,536;1,742;108;2.96
+Plumas;0;NA;NA;NA
+Riverside;166,985;4,526;131;0.78
+Sacramento;61,365;4,660;487;7.94
+San Benito;0;NA;NA;NA
+San Bernardino;33,540;1,393;58;1.73
+San Diego;2,480;96;0;0.00
+San Francisco;247;6;0;0.00
+San Joaquin;30,369;1,502;169;5.56
+San Luis Obispo;1,471;38;0;0.00
+San Mateo;344;22;0;0.00
+Santa Barbara;7,921;209;0;0.00
+Santa Clara;3,288;237;3;0.91
+Santa Cruz;1,687;109;0;0.00
+Shasta;21,766;680;17;0.78
+Sierra;0;NA;NA;NA
+Siskiyou;0;NA;NA;NA
+Solano;2,939;100;3;1.02
+Sonoma;25,149;1,294;3;0.12
+Stanislaus;71,075;1,783;197;2.77
+Sutter;11,071;270;19;1.72
+Tehama;0;NA;NA;NA
+Trinity;0;NA;NA;NA
+Tulare;20,954;758;144;6.87
+Tuolumne;0;NA;NA;NA
+Ventura;2,008;47;2;1.00
+Yolo;33,983;1,626;154;4.53
+Yuba;3,317;88;15;4.52;
+Total;933,980;32,992;2,815;3.01
