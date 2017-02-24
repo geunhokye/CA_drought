@@ -1,0 +1,59 @@
+County,Human.Cases,Dead.Birds,Mosquito.Samples,Sentinel.Chickens
+Alameda,0,7,4,0
+Alpine,0,0,0,0
+Amador,0,0,0,0
+Butte,1,6,1,21
+Calaveras,0,0,0,0
+Colusa,0,0,0,1
+Contra Costa,3,5,0,0
+Del Norte,0,0,0,0
+El Dorado,1,4,0,0
+Fresno,1,4,1,3
+Glenn,1,2,0,5
+Humboldt,0,0,0,0
+Imperial,0,0,0,0
+Inyo,0,1,0,0
+Kern,5,2,17,13
+Kings,0,0,5,0
+Lake,0,3,4,0
+Lassen,0,1,0,0
+Los Angeles,1,4,16,3
+Madera,0,0,0,0
+Marin,0,2,1,0
+Mariposa,0,1,0,0
+Mendocino,0,1,0,0
+Merced,0,3,0,0
+Modoc,0,1,0,0
+Mono,1,0,0,0
+Monterey,0,0,0,0
+Napa,0,1,0,0
+Nevada,0,0,0,0
+Orange,2,7,2,0
+Placer,1,0,3,0
+Plumas,0,0,0,0
+Riverside,0,0,2,0
+Sacramento,1,14,4,3
+San Benito,0,1,0,0
+San Bernardino,0,2,2,0
+San Diego,0,1,0,0
+San Francisco,0,0,0,0
+San Joaquin,2,3,0,5
+San Luis Obispo,0,2,0,0
+San Mateo,0,0,0,0
+Santa Barbara,0,0,0,0
+Santa Clara,0,3,4,0
+Santa Cruz,0,0,0,0
+Shasta,0,7,1,0
+Sierra,0,0,0,0
+Siskiyou,0,0,0,0
+Solano,0,2,0,9
+Sonoma,0,2,0,0
+Stanislaus,1,3,7,5
+Sutter,3,0,0,18
+Tehama,0,0,0,0
+Trinity,0,0,0,0
+Tulare,0,1,1,1
+Tuolumne,0,0,0,0
+Ventura,0,5,0,0
+Yolo,4,0,5,1
+Yuba,0,1,0,2

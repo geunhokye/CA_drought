@@ -1,59 +1,59 @@
-County;Human Cases;Dead Birds;Mosquito Samples;Sentinel Chickens
-Alameda;1;96;16;1
-Alpine;-;-;-;-
-Amador;-;-;-;-
-Butte;24;22;40;37
-Calaveras;-;-;-;-
-Colusa;3;4;1;9
-Contra Costa;5;44;25;15
-Del Norte;-;-;-;-
-El Dorado;-;7;-;-
-Fresno;43;9;138;-
-Glenn;10;4;8;9
-Humboldt;-;2;-;-
-Imperial;1;-;-;-
-Inyo;-;-;-;-
-Kern;11;3;111;-
-Kings;4;3;150;-
-Lake;1;18;71;5
-Lassen;-;-;-;-
-Los Angeles;253;99;356;146
-Madera;3;5;37;-
-Marin;-;6;3;-
-Mariposa;-;-;-;-
-Mendocino;1;-;-;-
-Merced;1;8;11;11
-Modoc;-;-;-;-
-Mono;-;-;-;-
-Monterey;-;-;-;-
-Napa;-;12;-;-
-Nevada;-;-;-;2
-Orange;263;431;499;-
-Placer;7;40;77;-
-Plumas;-;-;-;-
-Riverside;14;1;91;43
-Sacramento;10;294;487;10
-San Benito;-;-;-;-
-San Bernardino;21;17;97;32
-San Diego;11;39;1;2
-San Francisco;-;-;-;-
-San Joaquin;9;53;239;-
-San Luis Obispo;-;-;-;-
-San Mateo;-;21;15;-
-Santa Barbara;-;2;-;-
-Santa Clara;10;925;30;5
-Santa Cruz;-;1;-;-
-Shasta;2;6;33;12
-Sierra;-;-;-;-
-Siskiyou;-;-;-;-
-Solano;5;33;11;23
-Sonoma;-;37;9;3
-Stanislaus;33;47;176;12
-Sutter;8;19;52;31
-Tehama;4;-;-;13
-Trinity;-;-;-;-
-Tulare;21;40;311;4
-Tuolumne;-;-;-;-
-Ventura;1;7;-;-
-Yolo;15;71;221;9
-Yuba;6;16;24;9
+County,Human.Cases,Dead.Birds,Mosquito.Samples,Sentinel.Chickens
+Alameda,0,0,0,0
+Alpine,0,0,0,0
+Amador,0,0,0,0
+Butte,0,0,0,0
+Calaveras,0,0,0,0
+Colusa,0,0,0,0
+Contra Costa,0,0,0,0
+Del Norte,0,0,0,0
+El Dorado,0,0,0,0
+Fresno,0,0,0,0
+Glenn,0,0,0,0
+Humboldt,0,0,0,0
+Imperial,0,0,0,0
+Inyo,0,0,0,0
+Kern,0,0,0,0
+Kings,0,0,0,0
+Lake,0,0,0,0
+Lassen,0,0,0,0
+Los Angeles,0,0,0,0
+Madera,0,0,0,0
+Marin,0,0,0,0
+Mariposa,0,0,0,0
+Mendocino,0,0,0,0
+Merced,0,0,0,0
+Modoc,0,0,0,0
+Mono,0,0,0,0
+Monterey,0,0,0,0
+Napa,0,0,0,0
+Nevada,0,0,0,0
+Orange,0,0,0,0
+Placer,0,0,0,0
+Plumas,0,0,0,0
+Riverside,0,0,0,0
+Sacramento,0,0,0,0
+San Benito,0,0,0,0
+San Bernardino,0,0,0,0
+San Diego,0,0,0,0
+San Francisco,0,0,0,0
+San Joaquin,0,0,0,0
+San Luis Obispo,0,0,0,0
+San Mateo,0,0,0,0
+Santa Barbara,0,0,0,0
+Santa Clara,0,0,0,0
+Santa Cruz,0,0,0,0
+Shasta,0,0,0,0
+Sierra,0,0,0,0
+Siskiyou,0,0,0,0
+Solano,0,0,0,0
+Sonoma,0,0,0,0
+Stanislaus,0,0,0,0
+Sutter,0,0,0,0
+Tehama,0,0,0,0
+Trinity,0,0,0,0
+Tulare,0,0,0,0
+Tuolumne,0,0,0,0
+Ventura,0,0,0,0
+Yolo,0,0,0,0
+Yuba,0,0,0,0
