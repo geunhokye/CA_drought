@@ -84,7 +84,8 @@ for(year in 2006:2016){
 # loop over all years and all weeks in years
 # download data as they are in the website
 
-for(year in 2006:2016){
+# STOP before 2016 : weekly data are not updated for year 2016
+for(year in 2006:2015){
   
   for(week in 1:53){
     
@@ -104,7 +105,7 @@ for(year in 2006:2016){
 
 # now we can read it all again and separate by weekly additions
 
-for(year in 2006:2016){
+for(year in 2006:2015){
   
   # this is the path containing all files in year
   dir_data <- paste0('../../raw_data/caseCounts_westnile/weeklyCumulative/',year)
