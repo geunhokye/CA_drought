@@ -10,4 +10,4 @@ folder [raw_data](https://github.com/kcucchi/CA_drought/tree/master/data/raw_dat
 
 folder [R](https://github.com/kcucchi/CA_drought/tree/master/data/R) contains R scripts and R objects reading files in raw_data.
 
-## 
+folder [plots](https://github.com/kcucchi/CA_drought/tree/master/data/plots) contains plots of the data
