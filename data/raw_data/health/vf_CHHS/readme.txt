@@ -1,3 +1,6 @@
+>ValleyFever_CA_2001-2014_by_County.csv
+  subset of entire ID record to only include Coccidioidomycosis cases (by county for each year)
+
 > Infectious_Disease_Cases_by_County__Year__and_Sex__2001-2014.csv
 
 downloaded on Feb 17 from
