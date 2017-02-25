@@ -22,7 +22,7 @@ wnv_yearly =   tm_shape(ca_wnv) +
                               title = 'Incidence \n(Cases /\n1000 Person-Years)') +
                   tm_facets(ncol = 4, nrow = 3, free.scales = FALSE) +
                   tm_text(c(case_years), size = rep(0.6,12)) +
-                  tm_layout(panel.labels = c(2006:2016, 'Average')) +
+                  tm_layout(panel.labels = c(2006:2016, 'Total Cases / Mean Incidence')) +
                   tm_credits('Numbers indicate \n#cases in county',
                              position = c(0,0))
 
@@ -79,3 +79,5 @@ wnv_scs = tm_shape(ca_wnv) +
 
 save_tmap(wnv_scs, 'data/plots/WNV_sentinel_chickens_by_county.png', 
           width = 2500, height = 2000)
+
+#This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License http://creativecommons.org/licenses/by-nc/4.0/ by Karina Cucchi, Christopher Hoover and Justin Remais. This work was supported in part by the National Institute of Allergy and Infectious Diseases (grant R01AI125842), the National Science Foundation Water Sustainability and Climate Program (grant 1360330), and UCOP Multicampus Research Programs and Initiatives (MRPI) grant MRP-17-446315. Per the terms of this license, if you are making derivative use of this work, you must identify that your work is a derivative work, give credit to the original work, provide a link to the license, and indicate changes that were made.
