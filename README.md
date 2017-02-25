@@ -6,7 +6,7 @@ stores data, code and documents for the CA drought and public health MRPI propos
 
 [data](https://github.com/kcucchi/CA_drought/tree/master/data) is the parent tree to lead to all of the below data
 
-[raw_data](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data) corresponds to data directly downloaded from sources (often csv files).
+folder [raw_data](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data) corresponds to data directly downloaded from sources (often csv files).
 
 in [raw_data](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data):
 
