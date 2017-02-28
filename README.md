@@ -10,7 +10,7 @@ Below is a brief description of the organization of subfolders in [data](https:/
 
 ### raw_data
 
-folder [raw_data](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data) corresponds to data directly downloaded from sources (often csv files).
+folder [raw_data](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data) corresponds to data not changed since their acquisition (often csv files). Edited, cleaned or modified raw data are stored in [processed_data](https://github.com/kcucchi/CA_drought/tree/master/data/processed_data).
 
 * [2010census](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data/2010census) contains data downloaded from the US 2010 census as a source for demographic data. This file is extensive (>300 variables) due to in depth demographic info. See the file "DEC_10_DP_DPDP1_metadata.csv" for variable codes and descriptions
   
@@ -23,6 +23,11 @@ folder [raw_data](https://github.com/kcucchi/CA_drought/tree/master/data/raw_dat
 * [health](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data/health) contains data from CA Health and Human Services (CHHS) for valley fever (to be expanded on) and WNV case counts for each county
 
 See more extended description of datasets inside folder hierarchy.
+
+### processed_data
+
+Edited, cleaned or modified data from [raw_data](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data).
+Descriptions of how the data was modified are available inside the folder hierarchy.
 
 ### R
 
