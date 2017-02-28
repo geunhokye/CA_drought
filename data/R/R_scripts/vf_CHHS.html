@@ -118,15 +118,20 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">Import vf data from CHHS into R sp object</h1>
 <h4 class="author"><em>Karina Cucchi</em></h4>
-<h4 class="date"><em>February 21st, 2017</em></h4>
+<h4 class="date"><em>February 28th, 2017</em></h4>
 
 </div>
 
 
+<p>Check licensing in LICENSE.md at root of repository.</p>
+<p>The data is read from raw_data/health/vf_CHHS.</p>
+<p>It is formatted and stored into a R sp object stored in R/R_objects.</p>
+<pre class="r"><code># IMPORTANT : The default working directory is CA_drought/data/R/R_scripts
+# use setwd(paste0(&lt;pathToGitRepo&gt;,'CA_drought/data/R/R_scripts'))</code></pre>
 <div id="import-raw-data" class="section level1">
 <h1>Import raw data</h1>
 <pre class="r"><code># Import data from csv file
-dataPath = '../raw_data/health/vf_CHHS/Infectious_Disease_Cases_by_County__Year__and_Sex__2001-2014.csv'
+dataPath = '../../raw_data/health/vf_CHHS/Infectious_Disease_Cases_by_County__Year__and_Sex__2001-2014.csv'
 
 data_all &lt;- read.csv(file = dataPath,header = T,sep = ',',colClasses = &quot;character&quot;)
 data_vf &lt;- subset(data_all,Disease == 'Coccidioidomycosis')

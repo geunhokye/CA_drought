@@ -1,0 +1,59 @@
+County,Human Cases,Dead Birds,Mosquito Samples,Sentinel Chickens
+Alameda,1,2,1,-
+Alpine,-,-,-,-
+Amador,-,2,-,-
+Butte,2,20,5,16
+Calaveras,-,1,1,-
+Colusa,-,2,-,-
+Contra Costa,-,48,23,-
+Del Norte,-,-,-,-
+El Dorado,-,2,-,-
+Fresno,1,11,36,-
+Glenn,-,9,1,-
+Humboldt,-,-,-,-
+Imperial,-,-,7,11
+Inyo,-,-,-,-
+Kern,-,7,3,-
+Kings,-,-,-,-
+Lake,-,-,3,-
+Lassen,-,-,-,-
+Los Angeles,33,258,359,27
+Madera,-,-,-,-
+Marin,-,1,-,-
+Mariposa,-,-,-,-
+Mendocino,-,1,-,-
+Merced,-,1,-,-
+Modoc,-,-,-,-
+Mono,-,-,-,-
+Monterey,-,2,-,-
+Napa,-,-,-,-
+Nevada,-,4,-,-
+Orange,34,405,277,3
+Placer,-,2,24,2
+Plumas,-,-,-,-
+Riverside,23,28,86,33
+Sacramento,4,79,250,5
+San Benito,-,-,-,-
+San Bernardino,3,119,124,20
+San Diego,9,320,13,8
+San Francisco,-,-,-,-
+San Joaquin,6,59,150,1
+San Luis Obispo,-,-,-,-
+San Mateo,-,2,-,-
+Santa Barbara,-,1,-,-
+Santa Clara,-,9,1,-
+Santa Cruz,-,1,-,-
+Shasta,1,6,-,-
+Sierra,-,-,-,-
+Siskiyou,-,-,-,-
+Solano,1,5,1,-
+Sonoma,-,1,1,-
+Stanislaus,7,25,40,5
+Sutter,-,2,11,2
+Tehama,-,2,-,-
+Trinity,-,-,-,-
+Tulare,1,70,30,1
+Tuolumne,-,-,-,-
+Ventura,-,5,-,-
+Yolo,-,5,13,-
+Yuba,-,-,1,-

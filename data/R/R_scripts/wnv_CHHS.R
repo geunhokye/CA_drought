@@ -1,19 +1,25 @@
 #' ---
 #' title: "Import wnv data from CHHS into R sp object"
 #' author: "Karina Cucchi"
-#' date: "February  21st, 2017"
+#' date: "February  28th, 2017"
 #' ---
 #' 
+#' Check licensing in LICENSE.md at root of repository.
 #' 
+#' The data is read from raw_data/health/wnv_CHHS.
+#' 
+#' It is formatted and stored into a R sp object stored in R/R_objects.
 #' 
 
+# IMPORTANT : The default working directory is CA_drought/data/R/R_scripts
+# use setwd(paste0(<pathToGitRepo>,'CA_drought/data/R/R_scripts'))
 
 #'
 #' # Import raw data #
 #'
 
 # Import data from csv file
-dataPath = '../raw_data/health/wnv_CHHS/West_Nile_Virus_Cases__2006-present.csv'
+dataPath = '../../raw_data/health/wnv_CHHS/West_Nile_Virus_Cases__2006-present.csv'
 
 data_wnv <- read.csv(file = dataPath,header = T,sep = ',',colClasses = "character")
 

@@ -1,3 +1,12 @@
+#' ---
+#' title: "wnv_sums_CH"
+#' author: "Christopher Hoover"
+#' date: "February  28th, 2017"
+#' ---
+#' 
+#' Check licensing in LICENSE.md at root of repository.
+#' 
+
 require(maptools)
 require(mapproj)
 require(dplyr)

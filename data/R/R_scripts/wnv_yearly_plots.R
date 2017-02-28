@@ -1,3 +1,12 @@
+#' ---
+#' title: "wnv_yearly_plots"
+#' author: "Christopher Hoover"
+#' date: "February  28th, 2017"
+#' ---
+#' 
+#' Check licensing in LICENSE.md at root of repository.
+#' 
+
 require(maptools)
 require(rgdal)
 require(ggplot2)

@@ -118,15 +118,20 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">Import wnv data from CHHS into R sp object</h1>
 <h4 class="author"><em>Karina Cucchi</em></h4>
-<h4 class="date"><em>February 21st, 2017</em></h4>
+<h4 class="date"><em>February 28th, 2017</em></h4>
 
 </div>
 
 
+<p>Check licensing in LICENSE.md at root of repository.</p>
+<p>The data is read from raw_data/health/wnv_CHHS.</p>
+<p>It is formatted and stored into a R sp object stored in R/R_objects.</p>
+<pre class="r"><code># IMPORTANT : The default working directory is CA_drought/data/R/R_scripts
+# use setwd(paste0(&lt;pathToGitRepo&gt;,'CA_drought/data/R/R_scripts'))</code></pre>
 <div id="import-raw-data" class="section level1">
 <h1>Import raw data</h1>
 <pre class="r"><code># Import data from csv file
-dataPath = '../raw_data/health/wnv_CHHS/West_Nile_Virus_Cases__2006-present.csv'
+dataPath = '../../raw_data/health/wnv_CHHS/West_Nile_Virus_Cases__2006-present.csv'
 
 data_wnv &lt;- read.csv(file = dataPath,header = T,sep = ',',colClasses = &quot;character&quot;)
 

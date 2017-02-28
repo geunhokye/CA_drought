@@ -1,19 +1,25 @@
 #' ---
 #' title: "Import vf data from CHHS into R sp object"
 #' author: "Karina Cucchi"
-#' date: "February  21st, 2017"
+#' date: "February  28th, 2017"
 #' ---
 #' 
+#' Check licensing in LICENSE.md at root of repository.
 #' 
+#' The data is read from raw_data/health/vf_CHHS.
+#' 
+#' It is formatted and stored into a R sp object stored in R/R_objects.
 #' 
 
+# IMPORTANT : The default working directory is CA_drought/data/R/R_scripts
+# use setwd(paste0(<pathToGitRepo>,'CA_drought/data/R/R_scripts'))
 
 #'
 #' # Import raw data #
 #'
 
 # Import data from csv file
-dataPath = '../raw_data/health/vf_CHHS/Infectious_Disease_Cases_by_County__Year__and_Sex__2001-2014.csv'
+dataPath = '../../raw_data/health/vf_CHHS/Infectious_Disease_Cases_by_County__Year__and_Sex__2001-2014.csv'
 
 data_all <- read.csv(file = dataPath,header = T,sep = ',',colClasses = "character")
 data_vf <- subset(data_all,Disease == 'Coccidioidomycosis')
