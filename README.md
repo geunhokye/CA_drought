@@ -33,7 +33,11 @@ Descriptions of how the data was modified are available inside the folder hierar
 
 ### R
 
-folder [R](https://github.com/kcucchi/CA_drought/tree/master/data/R) contains R scripts used to derive shapefiles, plots, etc. and R objects reading files in raw_data to be used for later analyzes.
+[R](https://github.com/kcucchi/CA_drought/tree/master/data/R) contains
+
+* [R_scripts](https://github.com/kcucchi/CA_drought/tree/master/data/R/R_scripts) : R scripts used to derive shapefiles, plots, R objects etc;
+
+* [R_objects](https://github.com/kcucchi/CA_drought/tree/master/data/R/R_objects) : R objects derived from files in raw_data to be used for later analyzes.
 
 See description of files in folder.
 
