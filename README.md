@@ -4,7 +4,9 @@ stores data, code and documents for the CA drought and public health MRPI propos
 
 ## data
 
-[data](https://github.com/kcucchi/CA_drought/tree/master/data) is the parent tree to lead to all of the below data
+[data](https://github.com/kcucchi/CA_drought/tree/master/data) is the parent tree to lead to all of the below data.
+
+[data_codebook.docx](https://github.com/kcucchi/CA_drought/tree/master/data/data_codebook.docx) summarizes available variables.
 
 ### raw_data
 
@@ -14,9 +16,13 @@ folder [raw_data](https://github.com/kcucchi/CA_drought/tree/master/data/raw_dat
   
 * [animals](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data/animals) contains detailed reporting, collection, testing, and WNV-status data for birds and mosquitoes; separated into individual csvs for each year data is available
   
-* [caseCounts_westnile](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data/caseCounts_westnile) contains two subfolders: folder[weekly](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data/caseCounts_westnile/weekly) has for each year: a csv for weeks 1-53 of that year reporting the number of human cases, dead birds, mosquito pools, and sentinel chickens in that week and folder[yearly](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data/caseCounts_westnile/yearly) contains this info summed over all weeks for the entire year
+* [caseCounts_westnile](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data/caseCounts_westnile) contains case counts downloaded from westnile.ca.gov.
+  * [weekly](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data/caseCounts_westnile/weekly) has for each year: a csv for weeks 1-53 of that year reporting the number of human cases, dead birds, mosquito pools, and sentinel chickens in that week and folder
+  * [yearly](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data/caseCounts_westnile/yearly) contains this info summed over all weeks for the entire year
   
 * [health](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data/health) contains data from CA Health and Human Services (CHHS) for valley fever (to be expanded on) and WNV case counts for each county
+
+See more extended description of datasets inside folder hierarchy.
 
 ### R
 
