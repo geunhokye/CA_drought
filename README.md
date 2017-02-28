@@ -6,6 +6,8 @@ This repository stores data and code for the CA drought and public health MRPI p
 
 [data](https://github.com/kcucchi/CA_drought/tree/master/data) is the parent tree to lead to all of the below data. All available variables and associated attributes are summarized in [data_codebook.docx](https://github.com/kcucchi/CA_drought/tree/master/data/data_codebook.docx).
 
+Below is a brief description of the organization of subfolders in [data](https://github.com/kcucchi/CA_drought/tree/master/data).
+
 ### raw_data
 
 folder [raw_data](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data) corresponds to data directly downloaded from sources (often csv files).
@@ -30,7 +32,7 @@ See description of files in folder.
 
 ### Spatial
 
-folder [Spatial](https://github.com/kcucchi/CA_drought/tree/master/data/Spatial) contains:
+[Spatial](https://github.com/kcucchi/CA_drought/tree/master/data/Spatial) stores data from [raw_data](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data) in GIS file format (readily available for analyzes using ArcGIS or QGIS).
 
 *  [CA_counties](https://github.com/kcucchi/CA_drought/tree/master/data/Spatial/CA_counties) which contains a shapefile of all counties in california used to join tabular data in [raw_data](https://github.com/kcucchi/CA_drought/tree/master/data/raw_data) to space
 *  [WNV_All_years](https://github.com/kcucchi/CA_drought/tree/master/data/Spatial/WNV_All_years) contains a shapefile with both demographic data from the 2010 census and yearly summaries of human cases and incidence, dead birds, mosquitoes sampled, and sentinel chickens for each county from 2006 - 2016; this shapefile was used to produce the annual plot collations in [plots](https://github.com/kcucchi/CA_drought/tree/master/data/plots)
