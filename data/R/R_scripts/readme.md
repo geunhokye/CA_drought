@@ -1,12 +1,12 @@
 This folder contains R scripts. The scripts can serve different purposes:
 
-* downloading data from sources;
+* download data from sources;
 
 * clean/modify raw data into more convient processed data;
 
-* formatting raw data in different formats (R objects, shapefiles, ...);
+* format raw data in different formats (R objects, shapefiles, ...);
 
-* plotting data.
+* plot data.
 
 
 # Download from source
