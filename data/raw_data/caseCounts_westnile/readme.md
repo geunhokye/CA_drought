@@ -9,4 +9,4 @@ eg. http://westnile.ca.gov/case_counts.php?year=2006&option=print
 Example for weekly cumulative counts:
 eg. http://westnile.ca.gov/case_counts.php?year=2006&limit_week=53&option=print
 
-Weekly counts calculated using westnile_cum2weekly.R are available under processed_data/caseCounts_westnile/weekly
+Weekly counts calculated using westnile_cum2weekly.R are available under [processed_data/caseCounts_westnile/weekly](processed_data/caseCounts_westnile/weekly)
